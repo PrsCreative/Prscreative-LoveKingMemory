@@ -1,12 +1,9 @@
 # Prscreative-LoveKingMemory
-ไว้อาลัย พระบาทสมเด็จพระปรมินทรมหาภูมิพลอดุลยเดช รัชกาลที่ ๙ 
+##ไว้อาลัย พระบาทสมเด็จพระปรมินทรมหาภูมิพลอดุลยเดช รัชกาลที่ ๙ 
 
-รูปภาพ Ribbins & style css ขอขอบคุณพี่ Nuuneoi นะครับ
+##รูปภาพ Ribbins & style css ขอขอบคุณพี่ Nuuneoi นะครับ
 ผมขอนำของพี่มาพัฒนาต่อนะครับ ดูต้นฉบับได้ที่นี่เลยครับ  https://nuuneoi.com/blog/blog.php?read_id=884
-
-Welcome to the Prscreative-LoveKingMemory wiki!
-
-Extension Prscreative-LoveKingMemory พัฒนาขึ้นเพื่ออนุญาตุให้ดาวโหลดใช้งานได้ฟรี และสามารถพัฒนาต่อได้
+##Extension Prscreative-LoveKingMemory พัฒนาขึ้นเพื่ออนุญาตุให้ดาวโหลดใช้งานได้ฟรี และสามารถพัฒนาต่อได้
 
 # Install Extension with modman (Linux & Mac)
 * cd magento root install
