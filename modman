@@ -1,3 +1,6 @@
 app/code/community/Prscreative/LoveKingMemory app/code/community/Prscreative/LoveKingMemory
 app/etc/modules/Prscreative_LoveKingMemory.xml app/etc/modules/Prscreative_LoveKingMemory.xml
-skin/frontend/base/default/prscreative skin/frontend/base/default/prscreative
+skin/frontend/base/default/prscreative/css skin/frontend/base/default/prscreative/css
+skin/frontend/base/default/prscreative/images skin/frontend/base/default/prscreative/images
+app/design/frontend/base/default/template/prscreative/lovekingmemory.phtml app/design/frontend/base/default/template/prscreative/lovekingmemory.phtml
+app/design/frontend/base/default/layout/prscreative/lovekingmemory.xml app/design/frontend/base/default/layout/prscreative/lovekingmemory.xml

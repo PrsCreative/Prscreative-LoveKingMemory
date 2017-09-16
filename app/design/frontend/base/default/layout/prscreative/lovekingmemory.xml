@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<layout>
+  <default>
+    <reference name="head">
+      <action method="addCss">
+      <styleSheet>prscreative/css/prscreative-style.css</styleSheet>
+      </action>
+    </reference>
+  </default>
+</layout>

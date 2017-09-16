@@ -1,0 +1,38 @@
+<?php
+$grayscale  =   $this->getPageGrayscale();
+$ribbons    =   $this->getRibbons();
+
+ if($grayscale != ""){
+?>
+     <style type="text/css">
+         body{
+             <?php echo $grayscale; ?>
+         }
+     </style>
+<?php }else{ ?>
+
+     <script>
+         var $j = jQuery.noConflict();
+         $j('body').addClass('page-grayscale-all');
+     </script>
+
+<?php } ?>
+
+<!-- Ribbon-->
+<!-- Top Left -->
+<?php print_r($ribbons); ?>
+<?php if('top_left' == $ribbons){ ?>
+<img src="<?php echo $this->getSkinUrl('prscreative/images/black_ribbon_top_left.png'); ?>" class="black-ribbon stick-top stick-left"/>
+
+<?php }else if('top_right' == $ribbons){ ?>
+<!-- Top Right -->
+<img src="<?php echo $this->getSkinUrl('prscreative/images/black_ribbon_top_right.png'); ?>" class="black-ribbon stick-top stick-right"/>
+
+<?php }else if('bottom_left' == $ribbons ){ ?>
+<!-- Bottom Left -->
+<img src="<?php echo $this->getSkinUrl('prscreative/images/black_ribbon_bottom_left.png'); ?>" class="black-ribbon stick-bottom stick-left"/>
+
+<?php }else if('bottom_right' ==  $ribbons){ ?>
+<!-- Bottom Right -->
+<img src="<?php echo $this->getSkinUrl('prscreative/images/black_ribbon_bottom_right.png'); ?>" class="black-ribbon stick-bottom stick-right"/>
+<?php } ?>

@@ -11,5 +11,32 @@
         <class>Prscreative_LoveKingMemory_Helper</class>
       </lovekingmemory>
     </helpers>
+    <blocks>
+      <lovekingmemmory>
+        <class>Prscreative_LoveKingMemory_Block</class>
+      </lovekingmemmory>
+    </blocks>
   </global>
+  <frontend>
+
+    <events>
+      <core_block_abstract_to_html_after>
+        <observers>
+          <apptrian_minify_core_block_abstract_to_html_after>
+            <class>Prscreative_LoveKingMemory_Model_Observer</class>
+            <method>alterBlockHtml</method>
+          </apptrian_minify_core_block_abstract_to_html_after>
+        </observers>
+      </core_block_abstract_to_html_after>
+    </events>
+
+    <layout>
+      <updates>
+        <lovekingmemory>
+          <file>prscreative/lovekingmemory.xml</file>
+        </lovekingmemory>
+      </updates>
+    </layout>
+
+  </frontend>
 </config> 
