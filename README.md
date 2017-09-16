@@ -33,6 +33,9 @@
 ## Enable ribbons positions
 * Select position display ribbons
 
+# Screen config following URL:
+## http://www.mx7.com/view2/A7sdcjDTKduWGTAj
+
 # Create by
 Prscreative
 website: www.prscreative.com
