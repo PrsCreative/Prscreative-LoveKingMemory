@@ -1,0 +1,15 @@
+<?xml version="1.0"?>
+<config>
+  <modules>
+    <Prscreative_LoveKingMemory>
+      <version>0.1.0</version>
+    </Prscreative_LoveKingMemory>
+  </modules>
+  <global>
+    <helpers>
+      <lovekingmemory>
+        <class>Prscreative_LoveKingMemory_Helper</class>
+      </lovekingmemory>
+    </helpers>
+  </global>
+</config> 
