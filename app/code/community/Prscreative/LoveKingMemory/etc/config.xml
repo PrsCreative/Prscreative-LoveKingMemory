@@ -22,10 +22,10 @@
     <events>
       <core_block_abstract_to_html_after>
         <observers>
-          <apptrian_minify_core_block_abstract_to_html_after>
+          <love_king_memory>
             <class>Prscreative_LoveKingMemory_Model_Observer</class>
             <method>alterBlockHtml</method>
-          </apptrian_minify_core_block_abstract_to_html_after>
+          </love_king_memory>
         </observers>
       </core_block_abstract_to_html_after>
     </events>
